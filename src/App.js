@@ -10,10 +10,7 @@ function App() {
   const [show, setShow] = useState(false);
     const handleModal = () => setShow(!show);
    
-   
-
-
-
+  
   return (
     <div>
       
@@ -31,21 +28,9 @@ number={2255}
 
   </Modal>
 
-
-
-
-
-
-
 <Button variant="primary" onClick={handleModal}>
        Launch demo modal
      </Button>
-
-
-    
-
-
-
 
 
     </div>
